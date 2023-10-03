@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: linear-gradient(to right bottom, lightpink,lightblue,lightcyan);
+     height: 100vh;
+    
+}
+.container{
+ width: 400px;
+ height: 85vh;
+ background: rgba(0,0,0, .1);
+ margin: auto;
+ padding: 20px;
+ margin-top: 3rem;
+ display: flex;
+ flex-direction: column;
+}
+input{
+    width: 80%;
+    padding: .5rem;
+    margin: 1rem 0;
+    background: rgba(0,0,0, .6);
+    color: white;
+    border-radius: 5px;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    margin:.5rem auto;
+    background:linear-gradient(to right, pink, lightcyan);
+    border-color:  transparent;
+    color:gray;
+    border-radius: 5px;
+    padding-bottom: 15px;    
+    
+}
+.btn:hover{
+    cursor: pointer;
+    background:linear-gradient(to left, pink, lightcyan);
+}
+h2{
+    margin:1rem auto;
+}
+h3{
+margin-top: 1rem;
+}
